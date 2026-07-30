@@ -1,0 +1,6 @@
+beautifulsoup4==4.12.3
+openai==1.59.7
+python-dotenv==1.0.1
+python-dateutil==2.9.0.post0
+requests==2.32.3
+tzdata==2025.2

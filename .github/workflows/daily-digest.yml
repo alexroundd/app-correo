@@ -1,0 +1,59 @@
+name: Daily Sport digest
+
+on:
+  schedule:
+    # GitHub uses UTC. Running at both UTC times keeps 07:30 Europe/Madrid
+    # working across winter/summer time; the script skips the wrong one.
+    - cron: "30 5 * * *"
+    - cron: "30 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Send digest
+        env:
+          SOURCE_URL: https://www.sport.es/es/autor/maria-leiva/
+          AUTHOR_NAME: Maria Leiva
+          TIMEZONE: Europe/Madrid
+          SEND_TIME: "07:30"
+          MAX_INDEX_PAGES: "4"
+          SEND_EMPTY_EMAIL: "true"
+          GMAIL_USERNAME: alexrsen100@gmail.com
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EMAIL_FROM: alexrsen100@gmail.com
+          EMAIL_TO: alexrsen100@gmail.com
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4o-mini' }}
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            python daily_sport_digest.py --only-if-delivery-window
+          else
+            python daily_sport_digest.py
+          fi
+
+      - name: Commit sent history
+        run: |
+          if [ -n "$(git status --porcelain sent_history.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add sent_history.json
+            git commit -m "Update digest sent history [skip ci]"
+            git push
+          fi
