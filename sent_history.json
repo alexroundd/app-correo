@@ -1,3 +1,28 @@
 {
-  "sent": {}
+  "sent": {
+    "https://www.sport.es/es/noticias/futbol-internacional/ancelotti-anuncia-revolucion-brasil-132913420": {
+      "first_sent_at": "2026-07-30T17:07:17.641646+02:00",
+      "last_seen_date": "2026-07-29T17:03:32+02:00",
+      "last_sent_at": "2026-07-30T17:07:17.641646+02:00",
+      "title": "Ancelotti anuncia la revolución de Brasil"
+    },
+    "https://www.sport.es/es/noticias/futbol-internacional/barcola-quiere-volar-liverpool-132909705": {
+      "first_sent_at": "2026-07-30T17:07:17.641646+02:00",
+      "last_seen_date": "2026-07-29T14:49:00+02:00",
+      "last_sent_at": "2026-07-30T17:07:17.641646+02:00",
+      "title": "Barcola quiere volar a Liverpool"
+    },
+    "https://www.sport.es/es/noticias/mundial-futbol/lisandro-martinez-moda-anti-argentina-132879714": {
+      "first_sent_at": "2026-07-30T17:07:17.641646+02:00",
+      "last_seen_date": "2026-07-29T09:49:22+02:00",
+      "last_sent_at": "2026-07-30T17:07:17.641646+02:00",
+      "title": "Lisandro Martínez, sobre la moda 'Anti-Argentina': \"Me molesta que nos odien sin motivo\""
+    },
+    "https://www.sport.es/es/noticias/tenis/fognini-extenista-baja-sinner-canada-132910939": {
+      "first_sent_at": "2026-07-30T17:07:17.641646+02:00",
+      "last_seen_date": "2026-07-29T11:49:50+02:00",
+      "last_sent_at": "2026-07-30T17:07:17.641646+02:00",
+      "title": "Fognini, extenista, sobre la baja de Sinner en Canadá: \"Federer, Nadal y Djokovic no se saltaban ninguno\""
+    }
+  }
 }
