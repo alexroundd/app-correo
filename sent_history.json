@@ -1,5 +1,11 @@
 {
   "sent": {
+    "https://www.sport.es/es/noticias/deportes/espana-pleno-europeo-natacion-espanoles-133352248": {
+      "first_sent_at": "2026-08-15T07:48:23.566345+02:00",
+      "last_seen_date": "2026-08-14T11:25:48+02:00",
+      "last_sent_at": "2026-08-15T07:48:23.566345+02:00",
+      "title": "España roza el pleno en el Europeo de natación: casi todos los españoles pasan a semifinales"
+    },
     "https://www.sport.es/es/noticias/futbol-internacional/ancelotti-anuncia-revolucion-brasil-132913420": {
       "first_sent_at": "2026-07-30T17:07:17.641646+02:00",
       "last_seen_date": "2026-07-29T17:03:32+02:00",
@@ -18,11 +24,47 @@
       "last_sent_at": "2026-07-30T17:07:17.641646+02:00",
       "title": "Lisandro Martínez, sobre la moda 'Anti-Argentina': \"Me molesta que nos odien sin motivo\""
     },
+    "https://www.sport.es/es/noticias/outdoor/hugo-bravo-creador-contenido-paris-133284960": {
+      "first_sent_at": "2026-08-15T07:48:23.566345+02:00",
+      "last_seen_date": "2026-08-14T21:18:21+02:00",
+      "last_sent_at": "2026-08-15T07:48:23.566345+02:00",
+      "title": "Hugo Bravo, creador de contenido: \"De París a Sitges por el cáncer infantil\""
+    },
+    "https://www.sport.es/es/noticias/tenis/fisioterapeuta-alcaraz-revela-clave-exito-133322549": {
+      "first_sent_at": "2026-08-15T07:48:23.566345+02:00",
+      "last_seen_date": "2026-08-14T09:52:15+02:00",
+      "last_sent_at": "2026-08-15T07:48:23.566345+02:00",
+      "title": "El nutricionista de Alcaraz revela la clave de su éxito: \"Ahí es donde la mayoría falla y él lo hace muy bien\""
+    },
     "https://www.sport.es/es/noticias/tenis/fognini-extenista-baja-sinner-canada-132910939": {
       "first_sent_at": "2026-07-30T17:07:17.641646+02:00",
       "last_seen_date": "2026-07-29T11:49:50+02:00",
       "last_sent_at": "2026-07-30T17:07:17.641646+02:00",
       "title": "Fognini, extenista, sobre la baja de Sinner en Canadá: \"Federer, Nadal y Djokovic no se saltaban ninguno\""
+    },
+    "https://www.sport.es/es/noticias/tenis/iga-swiatek-ben-shelton-coronan-133358828": {
+      "first_sent_at": "2026-08-15T07:48:23.566345+02:00",
+      "last_seen_date": "2026-08-14T13:54:31+02:00",
+      "last_sent_at": "2026-08-15T07:48:23.566345+02:00",
+      "title": "Iga Swiatek y Ben Shelton se coronan como reyes del tenis en Canadá"
+    },
+    "https://www.sport.es/es/noticias/tenis/roberto-bautista-cambia-raqueta-balon-133357851": {
+      "first_sent_at": "2026-08-15T07:48:23.566345+02:00",
+      "last_seen_date": "2026-08-14T15:58:44+02:00",
+      "last_sent_at": "2026-08-15T07:48:23.566345+02:00",
+      "title": "Roberto Bautista cambia la raqueta por el balón y debuta con doblete en el fútbol"
+    },
+    "https://www.sport.es/es/noticias/tenis/stephen-smith-experto-lesiones-deportivas-133355053": {
+      "first_sent_at": "2026-08-15T07:48:23.566345+02:00",
+      "last_seen_date": "2026-08-14T13:26:55+02:00",
+      "last_sent_at": "2026-08-15T07:48:23.566345+02:00",
+      "title": "Stephen Smith, experto en lesiones deportivas, lanza un serio aviso sobre Carlos Alcaraz: \"Me sorprendería mucho verlo en el US Open\""
+    },
+    "https://www.sport.es/es/noticias/tenis/varapalo-roger-federer-milmillonario-133352595": {
+      "first_sent_at": "2026-08-15T07:48:23.566345+02:00",
+      "last_seen_date": "2026-08-14T13:54:48+02:00",
+      "last_sent_at": "2026-08-15T07:48:23.566345+02:00",
+      "title": "Varapalo para Roger Federer: ¡Ya no es milmillonario!"
     }
   }
 }
