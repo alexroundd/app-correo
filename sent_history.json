@@ -12,6 +12,12 @@
       "last_sent_at": "2026-07-30T17:07:17.641646+02:00",
       "title": "Ancelotti anuncia la revolución de Brasil"
     },
+    "https://www.sport.es/es/noticias/futbol-internacional/arbitro-ligue-1-condenado-prision-133511230": {
+      "first_sent_at": "2026-08-21T07:54:31.018220+02:00",
+      "last_seen_date": "2026-08-20T15:17:03+02:00",
+      "last_sent_at": "2026-08-21T07:54:31.018220+02:00",
+      "title": "Un árbitro de la Ligue 1, condenado a prisión condicional por violencia doméstica"
+    },
     "https://www.sport.es/es/noticias/futbol-internacional/barcola-quiere-volar-liverpool-132909705": {
       "first_sent_at": "2026-07-30T17:07:17.641646+02:00",
       "last_seen_date": "2026-07-29T14:49:00+02:00",
@@ -48,6 +54,12 @@
       "last_sent_at": "2026-08-17T07:57:26.543456+02:00",
       "title": "Hugo Bravo, creador de contenido: \"De París a Sitges por el cáncer infantil\""
     },
+    "https://www.sport.es/es/noticias/premier-league/lluc-castell-jugador-burnley-llevaba-133482549": {
+      "first_sent_at": "2026-08-21T07:54:31.018220+02:00",
+      "last_seen_date": "2026-08-21T06:30:20+02:00",
+      "last_sent_at": "2026-08-21T07:54:31.018220+02:00",
+      "title": "Lluc Castell, jugador del Burnley: \"Llevaba siete convocatorias sin jugar, no me lo esperaba. Debutar con el Espanyol era mi sueño\""
+    },
     "https://www.sport.es/es/noticias/tenis/djokovic-ve-reflejado-sinner-procedemos-133475488": {
       "first_sent_at": "2026-08-20T07:53:13.251877+02:00",
       "last_seen_date": "2026-08-19T10:53:30+02:00",
@@ -78,17 +90,35 @@
       "last_sent_at": "2026-08-15T07:48:23.566345+02:00",
       "title": "Iga Swiatek y Ben Shelton se coronan como reyes del tenis en Canadá"
     },
+    "https://www.sport.es/es/noticias/tenis/kyrgios-bad-boy-tenis-recibe-133504723": {
+      "first_sent_at": "2026-08-21T07:54:31.018220+02:00",
+      "last_seen_date": "2026-08-20T10:54:40+02:00",
+      "last_sent_at": "2026-08-21T07:54:31.018220+02:00",
+      "title": "Kyrgios, el 'bad boy' del tenis, recibe su propia medicina tras dar positivo en cocaína: \"Nunca patees a alguien cuando está en el suelo\""
+    },
     "https://www.sport.es/es/noticias/tenis/novak-djokovic-tenista-crie-montanas-133451120": {
       "first_sent_at": "2026-08-19T07:54:03.440042+02:00",
       "last_seen_date": "2026-08-18T17:02:51+02:00",
       "last_sent_at": "2026-08-19T07:54:03.440042+02:00",
       "title": "Novak Djokovic, tenista: “Me crié en las montañas y pasaba mucho tiempo allí, tanto en verano como en invierno. Me encanta el invierno y, cuando era joven, también esquiaba”"
     },
+    "https://www.sport.es/es/noticias/tenis/patrick-mouratoglou-entrenador-tenis-gente-133508643": {
+      "first_sent_at": "2026-08-21T07:54:31.018220+02:00",
+      "last_seen_date": "2026-08-20T18:19:45+02:00",
+      "last_sent_at": "2026-08-21T07:54:31.018220+02:00",
+      "title": "Patrick Mouratoglou, entrenador de tenis: “La gente se sorprendió cuando Carlos Alcaraz se borró de Cincinnati, pero no es tan sencillo. Hay buenas razones para ser optimistas”"
+    },
     "https://www.sport.es/es/noticias/tenis/rafa-jodar-punto-historia-subidon-133448433": {
       "first_sent_at": "2026-08-19T07:54:03.440042+02:00",
       "last_seen_date": "2026-08-18T22:53:57+02:00",
       "last_sent_at": "2026-08-19T07:54:03.440042+02:00",
       "title": "Rafa Jódar, a punto de ser leyenda: el subidón en el ranking ATP más grande de la historia"
+    },
+    "https://www.sport.es/es/noticias/tenis/rennae-stubbs-exnumero-tenis-rafa-133506641": {
+      "first_sent_at": "2026-08-21T07:54:31.018220+02:00",
+      "last_seen_date": "2026-08-20T11:54:01+02:00",
+      "last_sent_at": "2026-08-21T07:54:31.018220+02:00",
+      "title": "Rennae Stubbs, exnúmero uno del tenis: “Rafa Jódar podría sumar a su equipo a Juan Carlos Ferrero, aunque su su padre ha hecho un gran trabajo y es una persona encantadora”"
     },
     "https://www.sport.es/es/noticias/tenis/roberto-bautista-cambia-raqueta-balon-133357851": {
       "first_sent_at": "2026-08-15T07:48:23.566345+02:00",
