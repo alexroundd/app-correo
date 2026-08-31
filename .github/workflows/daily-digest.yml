@@ -4,8 +4,7 @@ on:
   schedule:
     # GitHub uses UTC. Running at both UTC times keeps 07:30 Europe/Madrid
     # working across winter/summer time; the script skips the wrong one.
-    - cron: "30 5 * * *"
-    - cron: "30 6 * * *"
+    - cron: "0 5 * * *"
   workflow_dispatch:
 
 permissions:
@@ -42,11 +41,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4o-mini' }}
         run: |
-          if [ "${{ github.event_name }}" = "schedule" ]; then
-            python daily_sport_digest.py --only-if-delivery-window
-          else
             python daily_sport_digest.py
-          fi
 
       - name: Commit sent history
         run: |
